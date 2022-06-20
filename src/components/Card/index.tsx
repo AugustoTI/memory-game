@@ -1,6 +1,6 @@
 import * as S from './styles';
 
-interface CardProps {
+export interface CardProps {
   id: string;
   flipped?: boolean;
   back: string;
@@ -25,7 +25,7 @@ export const Card = ({
   return (
     <S.Container onClick={() => handleClick()}>
       <div className={cardContentClassNames.join(' ')}>
-        <S.CardFace side="front">🐺</S.CardFace>
+        <S.CardFace side="front">?</S.CardFace>
         <S.CardFace side="back">{back}</S.CardFace>
       </div>
     </S.Container>
