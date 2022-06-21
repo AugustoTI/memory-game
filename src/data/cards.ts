@@ -5,7 +5,7 @@ export const cards = [
   },
   {
     id: '2',
-    back: '🐵',
+    back: '🐶',
   },
   {
     id: '3',

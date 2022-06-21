@@ -24,10 +24,11 @@ export const Container = styled.div`
   ${() => css`
     .content {
       position: relative;
-      width: 200px;
-      height: 200px;
+      width: 100%;
+      aspect-ratio: 1/1;
       transform-style: preserve-3d;
       transition: transform 600ms ease-in-out;
+      cursor: pointer;
 
       &.flipped {
         transform: rotateY(180deg);

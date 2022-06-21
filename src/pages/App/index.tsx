@@ -1,18 +1,8 @@
-import { Card } from '../../components/Card';
-
-const myAction = (id: string) => {
-  console.log(id);
-};
+import { Grid } from '../../components/Grid';
+import { cards } from '../../data/cards';
 
 function App() {
-  return (
-    <>
-      <Card back="🦊" flipped id="1" actionClickCard={myAction} />
-      <Card back="🦊" flipped id="2" actionClickCard={myAction} />
-      <Card back="🦊" flipped id="3" actionClickCard={myAction} />
-      <Card back="🦊" flipped id="4" actionClickCard={myAction} />
-    </>
-  );
+  return <Grid cards={cards} />;
 }
 
 export default App;

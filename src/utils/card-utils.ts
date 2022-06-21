@@ -1,4 +1,4 @@
-import { CardProps } from '../components/Card';
+import { CardProps } from '../Types/cardProps';
 
 const keyGen = () => {
   return (

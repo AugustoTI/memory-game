@@ -1,11 +1,5 @@
+import { CardProps } from '../../Types/cardProps';
 import * as S from './styles';
-
-export interface CardProps {
-  id: string;
-  flipped?: boolean;
-  back: string;
-  actionClickCard?: (id: string) => void;
-}
 
 export const Card = ({
   flipped = false,

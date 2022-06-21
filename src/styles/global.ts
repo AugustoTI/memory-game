@@ -21,8 +21,9 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 1.6rem;
-    display: grid;
-    place-items: center;
-    height: 100vh;
+  }
+
+  ul {
+    list-style: none;
   }
 `;
