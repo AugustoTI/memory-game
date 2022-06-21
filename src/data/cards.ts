@@ -23,4 +23,12 @@ export const cards = [
     id: '6',
     back: '🐸',
   },
+  {
+    id: '7',
+    back: '🐵',
+  },
+  {
+    id: '8',
+    back: '🐰',
+  },
 ];

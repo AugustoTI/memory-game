@@ -46,6 +46,10 @@ export const CardFace = styled.div<CardFaceProps>`
     backface-visibility: hidden;
     display: grid;
     place-items: center;
-    font-size: 8rem;
+    font-size: 6rem;
+
+    @media (max-width: 450px) {
+      font-size: 5rem;
+    }
   `}
 `;
